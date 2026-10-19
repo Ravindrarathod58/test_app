@@ -1,0 +1,28 @@
+How to deploy web application to the server?
+    1. Install git
+    2. Create a folder and open in vs code
+    3. create index.html file
+    4. create github respository
+    5. open terminal and write the commands
+
+    - when we add the new repository
+            - git init
+                initilise the local respository
+            - git add .
+                    (.) means all files 
+            - git commit -m "commit message"
+                - saves the changes in the local respository
+            - git branch -m main 
+                - creates the local main branch
+            - git remote add origin https://github.com/Ravindrarathod58/test_app.git
+                - adds the cloud repository created on github
+            
+            - git config --global user.email "email_id"
+            - git config --global user.name "githubName"
+
+            - git push -u origin main   
+                    - push the local changes to cloud repository
+
+
+        when the repository is already added then use folloeing commands to push the changes
+        
