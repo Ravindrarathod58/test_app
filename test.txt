@@ -24,5 +24,38 @@ How to deploy web application to the server?
                     - push the local changes to cloud repository
 
 
-        when the repository is already added then use folloeing commands to push the changes
+        when the repository is already added then use following commands to push the changes
+
+                    1. git add .
+                    2. git commit -m "message"
+                    3. git push
+
+        if we want to deploy or make our webpage availbale to everyone over the internet
+        then we require the server to host our website / html files
+
+        we are not going to create the server by ourself
+        we will use the cloud services to deploy the application
+
+        - netlify
+        - vercel
+        - render
+        - github
+        - firebase
+        - aws
+        - GCP
+        - azure
+
+        1. static application   
+                - without backend only HTML files
+        2. dynamic application  
+                - backend languages like java, python, nodejs
+
+        we are going to use the netlify for the static hosting
+         - open netlify account
+                - login with github
+
+
+        if you make any changes in the code then again we dont have to visit the netlify
+        just push the changes to github it automatically updates on the netlify 
+        this called CICD
         
